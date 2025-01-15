@@ -7,4 +7,5 @@ resource "cloudflare_record" "record" {
   ttl             = var.ttl
   proxied         = var.proxied
   allow_overwrite = var.allow_overwrite
+  comment         = var.comment
 }
